@@ -1,8 +1,8 @@
 # yamaha_ag08_loopback
 Pipewire Loopback Device Configs for the Yamaha AG08 Mixer
 ## Instructions
-Set your AG08's profile to "Pro Audio" and drop these in `~/.config/pipewire/pipewire.conf.d
-Then, `systemctl --user restart pipewire wireplumber
+Set your AG08's profile to "Pro Audio" and drop these in `~/.config/pipewire/pipewire.conf.d`
+Then, `systemctl --user restart pipewire wireplumber`
 ## Additional Notes
 There are a few capture_AUX channels I didn't use. They are listed here.
 6 - Channel 1, bypasses fader
